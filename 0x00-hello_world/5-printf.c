@@ -3,9 +3,7 @@
 /**
  * Main - print with the function printf
  *
- * Description: Use the printf
- * this program prints 'with proper grammar, but the outcome is a piece of art,'
- * Return: 0
+ * Return: 0 (Successful)
  */
 int main(void)
 {
