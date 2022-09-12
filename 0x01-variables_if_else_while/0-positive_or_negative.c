@@ -2,14 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-
 /* betty style doc for function main goes there */
 /**
  * main - Entry
  *
  * Return - 0 (Success)
  */
-
 int main(void)
 {
 	int n;
