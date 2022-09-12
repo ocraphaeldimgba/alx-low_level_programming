@@ -9,7 +9,7 @@
  *
  * Return - Always 0 (Success)
  */
-int main(void) - 1-last_digit.c
+int main(void) - 0
 {
 	int n;
 
