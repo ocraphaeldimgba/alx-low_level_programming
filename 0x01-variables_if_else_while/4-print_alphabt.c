@@ -6,7 +6,7 @@
  * Description - Write a new line
  * Return - 0 ( Success )
  */
-int main(void)
+int main ( void )
 {
 	char c;
 
