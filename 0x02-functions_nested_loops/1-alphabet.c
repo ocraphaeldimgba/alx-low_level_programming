@@ -1,15 +1,14 @@
-#include "main.h"
+#include "main.h"
 
-/**   
- * print_alphabet - function to print abc  
+/**
+ * print_alphabet - print lower alphabet
  *
- * Return - 0  
  */
-void print_alphabet(void) 
+
+void print_alphabet(void)
 {
-	int j;     
-	
-	for (j = 'a'; c <= 'z'; j++)
+	int j;
+	for (j = 'a'; j <= 'z'; j++)
 	{
 		_putchar(j);
 	}
