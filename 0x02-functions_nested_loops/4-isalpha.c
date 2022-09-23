@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - cheecks for alphabets
+ * _isalphabet - cheecks for alphabets
  * @c - character checks
  * Return - returns 0 or 1 depending on conditions
  */
