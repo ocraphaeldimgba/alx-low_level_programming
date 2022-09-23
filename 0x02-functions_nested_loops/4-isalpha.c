@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _isalphabet - cheecks for alphabets
+ * _isalpha - cheecks for alphabets
  * @c - character checks
  * Return - returns 0 or 1 depending on conditions
  */
-int _isalphabet(int c)
+int _isalpha(int c)
 {
 	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
