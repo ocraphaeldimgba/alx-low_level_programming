@@ -5,7 +5,7 @@
  * @c: int to check
  * Return: if successful 1, otherwise 0
  */
-int _isdigit(int c);
+int _isdigit(int c)
 {
 	int y = 0;
 
