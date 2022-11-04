@@ -3,10 +3,10 @@
 
 /**
  * _memset - unction that fills memory with a constant byte.
- * @b: bytes
- * @n: bytes of the memory area pointed
- * @s: with the constant byte
- * Return: Always 0
+ * @s: bytes
+ * @b: bytes of the memory area pointed
+ * @n: with the constant byte
+ * Return: s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -15,6 +15,6 @@ char *_memset(char *s, char b, unsigned int n)
 	while (n-- > 0)
 		*ptr++ = b;
 
-	return (0);
+	return (s);
 }
 
