@@ -3,13 +3,13 @@
 
 /**
  * _strchr - pointer to the first occurrence of the character
- * @c: in the string
- * @s: if not returned
- * Return: NULL
+ * @s: in the string
+ * @c: if not returned
+ * Return: pointer or NULL
  */
 char *_strchr(char *s, char c)
 {
-	if (S == NULL)
+	if (s == NULL)
 		return (NULL);
 	for (; *s; s++)
 	{
